@@ -1,0 +1,37 @@
+@font-face { font-family: "Rubl Sign"; src: url(http://www.artlebedev.ru/;-)/ruble.eot); }
+span.rur { font-family: "Rubl Sign"; text-transform: uppercase; // text-transform: none;}
+span.rur span { position: absolute; overflow: hidden; width: .45em; height: 1em; margin: .1ex 0 0 -.55em; // display: none; }
+span.rur span:before { content: '\2013'; }
+img.por_img1 {	border-radius: 4px;
+	border: 1px #cccccc solid;
+}
+.por_main_cont1 {	padding: 10px 0px 5px 0px;
+
+}
+.por_name_cont1 {
+	text-align: left;
+	vertical-align: top;
+	padding: 7px 0px 0px 0px;
+	font-size: 14px;
+	margin: 0px;
+	font-weight: bold;
+	font-family: arial, sans-serif;
+	line-height: 18px;
+}
+.por_name_cont1 a {
+	color: #006ecf;
+}
+.por_name_cont1 a:focus,
+.por_name_cont1 a:hover,
+.por_name_cont1 a:active {
+	color: #228fef;
+}
+.por_price_cont1 {	text-align: left;
+	vertical-align: top;
+	padding: 5px 0px 0px 0px;
+	font-size: 18px;
+	margin: 0px;
+	font-weight: normal;
+	font-family: arial, sans-serif;
+	line-height: 18px;
+}
